@@ -1,0 +1,62 @@
+.wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper * {
+  box-sizing: border-box;
+}
+
+.trafic-lights {
+  background-color: #b8b8b8;
+  border-radius: 10px;
+  width: 200px;
+  height: 710px;
+}
+
+.trafic-lights .circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 999px;
+  margin: 20px auto;
+}
+
+.trafic-lights .red {
+  background-color: red;
+}
+
+.trafic-lights .green {
+  background-color: green;
+}
+
+.trafic-lights .yellow {
+  background-color: yellow;
+}
+
+.trafic-lights button {
+  appearance: none;
+  border: none;
+  outline: none;
+  background-color: #494949;
+  color: #fff;
+  width: 80%;
+  height: 50px;
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.trafic-lights button:hover {
+  background-color: #6b6b6b;
+}
+
+.trafic-lights .active {
+  border: 4px #f7f7f7 solid;
+  box-shadow: 0 0 1em rgba(66, 188, 236, 0.5);
+}
