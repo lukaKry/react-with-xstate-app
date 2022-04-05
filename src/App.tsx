@@ -12,7 +12,7 @@ function App() {
     <Routes>
       <Route path='/' element={<Home />} />
       <Route path='/traffic' element={<TrafficLight />} />
-      <Route path='/jokes' element={<JokeSearch />} />
+      <Route path='/react-with-xstate-app/jokes' element={<JokeSearch />} />
       <Route path='/library' element={<Library />} />
       <Route path='/starwars' element={<StarWars />} />
       <Route path='/JHarry' element={<Dashboard />} />
